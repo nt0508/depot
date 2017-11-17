@@ -103,3 +103,48 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
     display: none;
   }
 }
+
+.depot_form fieldset {
+    background: #efe;
+}
+
+.depot_form fieldset legend {
+      color: #dfd;
+      background: #141;
+      font-family: sans-serif;
+      padding: 0.2em 1em;
+  }
+
+.depot_form div {
+      margin-bottom: 0.5em;
+}
+
+.depot_form div textarea {
+  margin-left: 10px;
+  margin-bottom: -0.3em;
+}
+
+.depot_form div input {
+  margin-left: 10px;
+}
+
+.depot_form form label {
+      width: 5em;
+      float: left;
+      text-align: right;
+      padding-top: 0.2em;
+      margin-right: 0.1em;
+      display: block;
+}
+
+.depot_form form select {
+  margin-left: 0.7em;
+}
+
+.depot_form form .submit {
+      margin-left: 4em;
+}
+
+.depot_form form br {
+      display: none
+}

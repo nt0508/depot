@@ -10,9 +10,13 @@
 </table>
 
 <div class="button" style="padding: 0;">
-  <div class="leftbtn "style="float: left"><%= button_to t('.checkout'), new_order_path, method: :get %></div>
-  <div style="float: left; padding-left: 10px"><%= button_to t('.empty'), cart, method: :delete,
-          data: { confirm: 'Are you sure?' } %></div>
+  <div class="leftbtn "style="float: left">
+    <%= button_to t('.checkout'), new_order_path, method: :get %>
+  </div>
+  <div style="float: left; padding-left: 10px">
+    <%= button_to t('.empty'), cart, method: :delete,
+          data: { confirm: 'Are you sure?' } %>
+  </div>
 </div>
 
 <% end %>
